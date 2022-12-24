@@ -22,9 +22,6 @@ namespace PrimeNumbersGetter {
             Console.Write("Enter second number (to): ");
             num2 = int.Parse(Console.ReadLine());
         
-            // Print display message
-            Console.WriteLine("\nPrime numbers between " + "{0} and {1} are: ", num1, num2);
-        
             // Checking each number in the range
             for(i = num1; i <= num2; i++) {
                 // Skip 1 and 0 and negative
